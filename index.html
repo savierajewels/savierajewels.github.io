@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f8f3">
+  <meta name="description" content="Meet SAVIERA: sculptural, considered jewelry made for the everyday extraordinary.">
+  <title>SAVIERA — Jewelry, in a new light</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">A little something extra: complimentary shipping on every order <span aria-hidden="true">↗</span></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="SAVIERA home">SAVIERA<span>®</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#collection">Shop all</a>
+      <a href="#story">Our point of view</a>
+      <a href="#newsletter">The edit</a>
+    </nav>
+    <a class="bag-link" href="#collection" aria-label="Shopping bag, 0 items">Bag <span class="bag-count">0</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=2200&q=88" alt="Sculptural gold jewelry caught in a wash of sunlight">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Objects to keep close</p>
+        <h1 id="hero-title">A little<br>out of the<br><em>ordinary.</em></h1>
+        <p class="hero-description">Jewelry that shifts the feeling of getting dressed. Made to be worn, lived in, and yours.</p>
+        <a class="button button-lime" href="#collection">Discover the collection <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-caption"><span>01 / 03</span><span>New perspective, same you.</span></div>
+      <a class="hero-scroll" href="#collection" aria-label="Scroll to the collection">↓</a>
+    </section>
+
+    <section class="intro section-wrap" id="story">
+      <p class="eyebrow">A different kind of shine</p>
+      <div class="intro-content">
+        <h2>Not saved for later.<br><em>Made for right now.</em></h2>
+        <p>We believe the best pieces don't wait for an occasion. Thoughtful forms, good materials, and a little bit of unexpected make every day feel like yours.</p>
+      </div>
+      <span class="intro-mark" aria-hidden="true">S.</span>
+    </section>
+
+    <section class="collection section-wrap" id="collection" aria-labelledby="collection-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Consider this your sign</p>
+          <h2 id="collection-title">The <em>good</em> stuff.</h2>
+        </div>
+        <a class="text-link" href="#newsletter">See what’s new <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="product-grid">
+        <article class="product">
+          <a class="product-image" href="#newsletter" aria-label="Discover the Orbit Hoops">
+            <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1000&q=85" alt="Gold sculptural hoop earrings">
+            <span class="product-label">A daily favorite</span>
+          </a>
+          <div class="product-info"><div><h3>Orbit Hoops</h3><p>Recycled sterling silver · 18k gold plate</p></div><span>$128</span></div>
+          <button class="add-button" type="button" data-product="Orbit Hoops">Add to bag <span aria-hidden="true">+</span></button>
+        </article>
+        <article class="product">
+          <a class="product-image" href="#newsletter" aria-label="Discover the Everyday Chain">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1000&q=85" alt="Delicate gold chain necklace on a model">
+            <span class="product-label">Just landed</span>
+          </a>
+          <div class="product-info"><div><h3>Everyday Chain</h3><p>Recycled sterling silver · 18k gold plate</p></div><span>$164</span></div>
+          <button class="add-button" type="button" data-product="Everyday Chain">Add to bag <span aria-hidden="true">+</span></button>
+        </article>
+        <article class="product">
+          <a class="product-image" href="#newsletter" aria-label="Discover the Form Ring">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1000&q=85" alt="Modern gold ring with a sculptural silhouette">
+            <span class="product-label">Almost gone</span>
+          </a>
+          <div class="product-info"><div><h3>Form Ring</h3><p>Recycled sterling silver · 18k gold plate</p></div><span>$96</span></div>
+          <button class="add-button" type="button" data-product="Form Ring">Add to bag <span aria-hidden="true">+</span></button>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto" aria-label="Made with intention">
+      <div class="manifesto-image-wrap"><img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1400&q=85" alt="Close-up of thoughtfully crafted gold earrings"></div>
+      <div class="manifesto-copy"><p class="eyebrow">Good things, made better</p><h2>Considered<br>from the <em>start.</em></h2><p>We make fewer, better things. Recycled precious metals, responsible partners, and pieces designed to stay in your rotation for years.</p><a class="text-link" href="#newsletter">The way we make it <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="newsletter section-wrap" id="newsletter">
+      <div><p class="eyebrow">The occasional good thing</p><h2>Notes from<br><em>our world.</em></h2></div>
+      <form class="newsletter-form">
+        <label for="email">A little inspiration, first dibs, and 10% off your first order.</label>
+        <div class="input-row"><input id="email" name="email" type="email" placeholder="Your email address" autocomplete="email" required><button type="submit" aria-label="Subscribe to the newsletter">↗</button></div>
+        <p class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="#home">SAVIERA<span>®</span></a><p>Objects to keep close. © 2026 SAVIERA</p><a href="#home">Back to the top ↑</a></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
